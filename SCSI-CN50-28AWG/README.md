@@ -37,7 +37,7 @@ Machine side, half-pitch 50-pin connector (X68000 Book, Appendix D.10) → heade
 | GND | 1-12, 14-25, 35, 36, 37, 39, 40, 42 | all other pins except 25 |
 | not connected | 13 | 25 |
 
-Half-pitch pads 1-25 are one side of the connector and 26-50 the other, with pin 26 beside pin 1. Header pin 1 is the red-stripe side of the ribbon cable.
+On J1 the solder holes are paired in rows: 1-2, 3-4, ... 49-50 (odd numbers in one column, even in the other); the hole number is the half-pitch pin number. On J2, header pin 1 is the red-stripe side of the ribbon cable.
 
 ## Revisions
 

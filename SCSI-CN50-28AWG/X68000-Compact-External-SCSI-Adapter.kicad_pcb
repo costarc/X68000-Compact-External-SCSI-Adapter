@@ -4837,7 +4837,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "All unlabelled pins are GND"
+	(gr_text "Unlabelled pins GND, 13 NC"
 		(at 103.891662 41.402 90)
 		(layer "F.SilkS")
 		(uuid "ef787767-ce5e-47a9-9de5-1da35593749b")
