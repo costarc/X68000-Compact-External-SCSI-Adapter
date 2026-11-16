@@ -44,7 +44,7 @@ Half-pitch pads 1-25 are one side of the connector and 26-50 the other, with pin
 Rev 2.0 (D.10 pinout)
 - J1 is rewired to the half-pitch pinout of the X68000 Book, Appendix D.10. J2 is unchanged.
 - Rev 1.0 joined every J1 pad n to J2 pin n, i.e. it numbered J1 as a ribbon header. On the half-pitch connector that put machine grounds on the device's data lines, machine DB0 on device TERMPWR and machine TERMPWR on device /ACK, and held /RST low. **Do not use Rev 1.0 boards** (`Fabrication/... MDR Rev 1.0.zip`).
-- The J1 footprint on the board was corrected to the 3M 102 series datasheet (`ts0427.pdf`): row spacing 1.905 mm (it was about 1.78 mm) and two 2.79 mm lock-stand holes 46.5 mm apart on the centre line of the pad rows. The library footprint `Roni Footprints:X68000 SCSI MDR-50` itself has not been updated, so a board refreshed from the library would revert this.
+- The J1 footprint on the board was corrected to the 3M 102 series datasheet (`ts0427.pdf`): row spacing 1.905 mm (it was about 1.78 mm) and two 2.79 mm lock-stand holes 46.5 mm apart on the centre line of the pad rows (the footprint's older 2.5 mm Edge.Cuts circles were removed). Board silkscreen now reads Rev 2.0. The library footprint `Roni Footprints:X68000 SCSI MDR-50` itself has not been updated, so a board refreshed from the library would revert this.
 - The board was re-routed. Gerbers: `Fabrication/X68000-Compact-External-SCSI-Adapter MDR Rev 2.0 (D.10 pinout).zip`.
 
 Rev 1.0
